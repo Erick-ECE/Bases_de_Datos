@@ -1,6 +1,7 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import com.csvreader.CsvReader;
+
 //import com.csvreader.CsvReader;
 
 public class Lectura_csv {
@@ -31,6 +32,7 @@ public class Lectura_csv {
             System.out.println("Valor de la Propiedad: $"+val_prop); 
             System.out.println("Valor para Venta: $"+val_venta);
             System.out.println("/***********************************/\n");
+            
         }
          
         } catch (FileNotFoundException e) {
