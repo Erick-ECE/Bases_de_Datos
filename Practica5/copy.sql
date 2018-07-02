@@ -1,0 +1,1 @@
+Copy (SELECT distinct(nombre_estado),abreviatura FROM geografico.estadosdistritosmunicipios order by nombre_estado) to '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/Practica5/estados.csv' Delimiter ',' CSV header;

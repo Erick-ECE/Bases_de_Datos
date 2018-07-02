@@ -1,0 +1,5 @@
+COPY geografico_normalizado.estados FROM '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/practica6/Informacion/estados.csv' using delimiters ',' ;
+COPY geografico_normalizado.distritos_federales FROM '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/practica6/Informacion/distritos_federales.csv' using delimiters ',' ;
+COPY geografico_normalizado.distritos_locales FROM '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/practica6/Informacion/distritos_locales.csv' using delimiters ',' ;
+COPY geografico_normalizado.municipios FROM '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/practica6/Informacion/municipios.csv' using delimiters ',' ;
+COPY geografico_normalizado.secciones FROM '/home/erick/Documentos/Bases de Datos/Bases_de_Datos/practica6/Informacion/secciones.csv' using delimiters ',' ;

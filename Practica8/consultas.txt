@@ -1,0 +1,9 @@
+SET search_path TO industria_musical, public;
+
+SELECT nombreint FROM interprete
+WHERE pais != 'México';
+
+SELECT titulo FROM cancion
+WHERE cast(LEFT(duracion, 2) as int) < 5;
+
+
